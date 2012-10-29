@@ -1,0 +1,19 @@
+{
+	"auto_upgrade_last_run": 1351511012,
+	"installed_packages":
+	[
+		"alternative_autocompletion",
+		"CSScomb",
+		"emmet-sublime",
+		"Inc-Dec-Value",
+		"LESS",
+		"Open-Include",
+		"Package Control",
+		"SCSS",
+		"Stylus"
+	],
+	"repositories":
+	[
+		"https://github.com/sergeche/emmet-sublime"
+	]
+}

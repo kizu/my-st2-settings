@@ -1,0 +1,36 @@
+// Keybindings
+//   starts with `[{}` so we could use comma-first everywhere
+[{}
+
+    // Use `CMD+[]` for switching tabs
+,   { "keys": ["super+["], "command": "prev_view" }
+,   { "keys": ["super+]"], "command": "next_view" }
+
+
+    // For: alternative_autocompletion
+    //   Use `§` and `shift+§` for autocomplete like in TextMate
+    //   Not `esc`, so it won't interfere with escaping from snippets, selections etc.
+,   { "keys": ["§"], "command": "alternative_autocomplete", "context":
+      [
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "overlay_visible", "operator": "equal", "operand": false }
+      ]
+    }
+,   { "keys": ["±"], "command": "alternative_autocomplete", "args": {"cycle": "previous"}, "context":
+      [
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "overlay_visible", "operator": "equal", "operand": false }
+      ]
+    }
+
+
+    // For: Open-Include
+    //   Keubindings for russian layout
+,   { "keys": ["ctrl+alt+o"], "command": "open_include"}
+,   { "keys": ["ctrl+alt+щ"], "command": "open_include"}
+
+
+    // Open
+,   { "keys": ["super+shift+,"], "command": "open_file", "args": {"file": "${packages}/User/${SYNTAX}.sublime-settings"} }
+
+]
