@@ -30,6 +30,7 @@
     // So you won't need to look at the bottom of the file all the time
     "scroll_past_end": true,
 
+
 // UI
 
     // Makes tabs with modified files more visible
@@ -37,6 +38,7 @@
 
     // More tabs, less close possibility
     "show_tab_close_buttons": false,
+
 
 // File & Save preferences
 
@@ -57,6 +59,7 @@
 
     // Could be useful sometimes, but not all the time
     // "save_on_focus_lost": true,
+
 
 // Editing preferences
 
