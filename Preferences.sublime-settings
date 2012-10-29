@@ -3,6 +3,9 @@
 
 // Visual preferences
 
+    // Use the alternate theme for ST
+    "theme": "Soda Dark.sublime-theme",
+
     // Somewhat customized Sunburst
     "color_scheme": "Packages/Color Scheme - Default/Colorized-574570411344577-Sunburst ki.tmTheme",
 

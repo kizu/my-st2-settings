@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1351511012,
+	"auto_upgrade_last_run": 1351516708,
 	"installed_packages":
 	[
 		"alternative_autocompletion",
@@ -10,7 +10,8 @@
 		"Open-Include",
 		"Package Control",
 		"SCSS",
-		"Stylus"
+		"Stylus",
+		"Theme - Soda"
 	],
 	"repositories":
 	[
