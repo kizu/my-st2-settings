@@ -26,6 +26,12 @@
     // For: Open-Include
     //   Keybindings for russian layout
     { "keys": ["ctrl+alt+o"], "command": "open_include"},
-    { "keys": ["ctrl+alt+щ"], "command": "open_include"}
+    { "keys": ["ctrl+alt+щ"], "command": "open_include"},
+
+    // Shortcut for “New View into File”
+    { "keys": ["super+ctrl+alt+n"], "command": "clone_file" },
+
+    // Shortcut for Syntax Specific settings
+    { "keys": ["super+alt+,"], "command": "open_file_settings" }
 
 ]
