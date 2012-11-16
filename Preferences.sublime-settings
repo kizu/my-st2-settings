@@ -30,6 +30,9 @@
     // So you won't need to look at the bottom of the file all the time
     "scroll_past_end": true,
 
+    // Disabling fade for Origami plugin
+    "fade_inactive_panes": false,
+
 
 // UI
 
