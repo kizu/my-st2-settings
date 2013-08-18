@@ -1,12 +1,17 @@
 {
-	"auto_upgrade_last_run": 1353063900,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
-		"alternative_autocompletion",
+		"Alternative Autocompletion",
+		"CoffeeScript",
+		"ColorSchemeSelector",
 		"CSScomb",
 		"emmet-sublime",
+		"GitGutter",
 		"Inc-Dec-Value",
 		"LESS",
+		"Liquid",
+		"MarkdownEditing",
 		"Open-Include",
 		"Origami",
 		"Package Control",

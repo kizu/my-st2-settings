@@ -1,90 +1,41 @@
 {
-// Visual preferences
-
-    // Use the alternate theme for ST
-    "theme": "Soda Dark.sublime-theme",
-
-    // Somewhat customized Sunburst
-    "color_scheme": "Packages/Color Scheme - Default/Sunburst ki.tmTheme",
-
-    // Draw whitespace only on selection
-    "draw_white_space": "selection", // selection | none | all
-
-    // Some font settings
-    "font_face": "Monaco",
-    "font_size": 15.0,
-
-    // Something like line-height (maybe move to MD-like syntax?)
-    "line_padding_top": 2,
-    "line_padding_bottom": 1,
-
-    // Highlight the line, so the current cursor position would be easier to spot
-    "highlight_line": true,
-
-    // Show the edge of the editing area, so we could see where the identation starts
-    "rulers": [0],
-
-    // Try to remember what option did you want here lol
-    "word_wrap": "true", // true | false | auto
-
-    // So you won't need to look at the bottom of the file all the time
-    "scroll_past_end": true,
-
-    // Disabling fade for Origami plugin
-    "fade_inactive_panes": false,
-
-
-// UI
-
-    // Makes tabs with modified files more visible
-    "highlight_modified_tabs": true,
-
-    // More tabs, less close possibility
-    "show_tab_close_buttons": false,
-
-
-// File & Save preferences
-
-    // Open all files in the top window
-    "open_files_in_new_window": false,
-
-    // Remove unnecessary things on save
-    "ensure_newline_at_eof_on_save": true,
-    "trim_trailing_white_space_on_save": true,
-
-    // Use default Cyrillic encoding for fallback
-    "fallback_encoding": "Cyrillic (Windows 1251)",
-
-    // Comment `Vintage` to enable it (lol)
-    "ignored_packages": [
-        "Vintage"
-        ],
-
-    // Could be useful sometimes, but not all the time
-    // "save_on_focus_lost": true,
-
-
-// Editing preferences
-
-    "shift_tab_unindent": true,
-
-    // 4 Spaces by default
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-
-    // Removed dash as a word separator
-    "word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
-
-    // Trying to play without it for a while
-    "tab_completion": true,
-
-    // I don't use it, so disabling it, so it won't trigger randomly
-    "drag_text": false,
-
-    "hayaku_CSS_syntax_autoguess": [
-        "    selector {              ",
-        "        property: value;    ",
-        "        }                   "
-    ],
-
-"":""}
+	"": "",
+	"color_scheme": "Packages/Color Scheme - Default/Sunburst ki.tmTheme",
+	"drag_text": false,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_inactive_panes": false,
+	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"font_face": "Monaco",
+	"font_size": 14.0,
+	"hayaku_CSS_syntax_autoguess":
+	[
+		"    selector {              ",
+		"        property: value;    ",
+		"        }                   "
+	],
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"MarkdownEditing"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 2,
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		0
+	],
+	"scroll_past_end": true,
+	"shift_tab_unindent": true,
+	"show_tab_close_buttons": false,
+	"tab_completion": true,
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?-",
+	"word_wrap": true
+}
