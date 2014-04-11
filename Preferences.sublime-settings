@@ -6,20 +6,97 @@
 	"ensure_newline_at_eof_on_save": true,
 	"fade_inactive_panes": false,
 	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"_site"
+	],
 	"font_face": "Monaco",
-	"font_size": 14.0,
+	"font_size": 18.0,
 	"hayaku_CSS_syntax_autoguess":
 	[
 		"    selector {              ",
 		"        property: value;    ",
 		"        }                   "
 	],
+	"hayaku_user_aliases":
+	{
+		"ololo": "position"
+	},
+	"hayaku_user_dict":
+	{
+		"CSS":
+		[
+			{
+				"name": "position",
+				"values":
+				[
+					"sticky"
+				]
+			}
+		],
+		"Stylus":
+		[
+			{
+				"name": "<length>",
+				"values":
+				[
+					"\\$islands_s",
+					".*\\$islands_s",
+					"\\$islands_l",
+					".*\\$islands_l",
+					"\\$islands_m",
+					".*\\$islands_m",
+					"\\$islands_xs",
+					".*\\$islands_xs"
+				]
+			},
+			{
+				"name": "kind",
+				"values":
+				[
+					"<length>",
+					"block",
+					"button",
+					"baseliner",
+					"centering",
+					"clear",
+					"content",
+					"field",
+					"file-intruder",
+					"file-input",
+					"fill",
+					"grid",
+					"group",
+					"guide",
+					"hidden",
+					"icon",
+					"input",
+					"link",
+					"list",
+					"modal",
+					"pill",
+					"shrink",
+					"view-controller"
+				]
+			}
+		]
+	},
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage",
-		"MarkdownEditing"
+		"Open-Include",
+		"MarkdownEditing",
+		"LiveStyle",
+		"EasyMotion",
+		"Inc-Dec-Value",
+		"Liquid"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 2,
@@ -30,6 +107,7 @@
 	],
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
+	"show_line_endings": true,
 	"show_tab_close_buttons": false,
 	"tab_completion": true,
 	"tab_size": 4,

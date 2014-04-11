@@ -2,46 +2,54 @@
 [
 
     // Use `CMD+[]` for switching tabs
-    { "keys": ["super+["], "command": "prev_view" },
-    { "keys": ["super+]"], "command": "next_view" },
-
-
-    // For: alternative_autocompletion
-    //   Use `§` and `shift+§` for autocomplete like in TextMate
-    //   Not `esc`, so it won't interfere with escaping from snippets, selections etc.
-    { "keys": ["§"], "command": "alternative_autocomplete", "context":
-      [
-        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-        { "key": "overlay_visible", "operator": "equal", "operand": false }
-      ]
+    {
+        "keys": [ "super+[" ],
+        "command": "prev_view"
     },
-    { "keys": ["±"], "command": "alternative_autocomplete", "args": {"cycle": "previous"}, "context":
-      [
-        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-        { "key": "overlay_visible", "operator": "equal", "operand": false }
-      ]
+    {
+        "keys": [ "super+]" ],
+        "command": "next_view"
     },
-
-
-    // Redefining default auto_complete
-    { "keys": ["alt+§"], "command": "auto_complete" },
-    { "keys": ["alt+§"], "command": "replace_completion_with_auto_complete", "context":
-        [
-            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
-            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
-            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
-        ]
-    },
-
 
     // For: Open-Include
     //   Keybindings for russian layout
-    { "keys": ["ctrl+alt+o"], "command": "open_include"},
-    { "keys": ["ctrl+alt+щ"], "command": "open_include"},
+    {
+        "keys": [ "ctrl+alt+o" ],
+        "command": "open_include"
+    },
+    {
+        "keys": [ "ctrl+alt+щ" ],
+        "command": "open_include"
+    },
 
     // Shortcut for “New View into File”
-    { "keys": ["super+ctrl+alt+n"], "command": "clone_file" },
+    {
+        "keys": [ "super+ctrl+alt+n" ],
+        "command": "clone_file"
+    },
 
     // Shortcut for Syntax Specific settings
-    { "keys": ["super+alt+,"], "command": "open_file_settings" }
+    {
+        "keys": [ "super+alt+," ],
+        "command": "open_file_settings"
+    },
+
+    // Shortcut for User's keymap
+    {
+        "keys": [ "super+alt+shift+," ],
+        "command": "open_file",
+        "args": { "file": "${packages}/User/Default ($platform).sublime-keymap" }
+    },
+
+    // Shortcuts for Calculate
+    {
+        "keys": [ "ctrl+shift+=" ],
+        "command": "calculate",
+        "args": { "replace": false }
+    },
+    {
+        "keys": [ "ctrl+shift+c" ],
+        "command": "calculate",
+        "args": { "replace": true }
+    }
 ]

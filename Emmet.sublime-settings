@@ -1,0 +1,8 @@
+{
+    // "show_css_completions": false,
+    "snippets": {
+        "html": {
+            "filters": "html, bem"
+        }
+    }
+}
